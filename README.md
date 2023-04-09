@@ -1,2 +1,2 @@
 # JigTime
-![JigTime logo](images/logo.png?raw=true){ style="display: block; margin: 0 auto; max-width: 1032px;" }
+<div style="text-align: center;"><img src="images/logo.png?raw=true" width="820" /></div>
