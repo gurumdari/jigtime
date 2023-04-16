@@ -11,4 +11,4 @@
 ## JigBack
 Modules that supports server environment for JigTime
 
-[http://jigback.org](http://jigback.org)
+[https://github.com/gurumdari/jigback](https://github.com/gurumdari/jigback)
