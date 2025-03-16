@@ -15,9 +15,7 @@
 
 <p align="center"><img src="images/template_engine.png?raw=true" width="490" /></p>
 
-```
-HTML SPA resource templates are rendered directly in JigTime (Natural JavaScript) on the front-end, but JS/CSS templates and static HTML page templates are transpiled on the back-end via deno.
-```
+> HTML SPA resource templates are rendered directly in JigTime (Natural JavaScript) on the front-end, but JS/CSS templates and static HTML page templates are transpiled on the back-end via deno.
 
 <p align="center"><img src="images/transpile.png?raw=true" width="490" /></p>
 
@@ -46,15 +44,11 @@ HTML SPA resource templates are rendered directly in JigTime (Natural JavaScript
 
 ### Provide various widgets
 
-```
-chipsinput, chipsselect, dataframe, datasheet, dialog, editor, grid, labelinput, loading, popup, resizabletext, tree, win, winup
-```
+> chipsinput, chipsselect, dataframe, datasheet, dialog, editor, grid, labelinput, loading, popup, resizabletext, tree, win, winup
 
 ### Provide various extensions
 
-```
-colorx, datex, matrixx, papaparsex, timex, valuex
-```
+> colorx, datex, matrixx, papaparsex, timex, valuex
 
 ### Support theme (eye-protect, light, dark)
 
@@ -62,11 +56,8 @@ colorx, datex, matrixx, papaparsex, timex, valuex
 
 ### Development independent of back-end platform
 
-```
-To avoid becoming a module dependent on a specific back-end platform, the back-end support module is separated from JigTime. JigBack is a back-end support module of JigTime, and supports Oak middleware framework, PHP, Spring boot, Servlet/JSP, JAX-RS, and supports data-binding, MVC development, etc.
-
-In JigBack, JS/CSS templates and static HTML page templates are transpiled via deno. When TypeScript, LESS, SCSS, and static HTML page templates are transpiled via deno, they are converted into executable templates on the front-end. When operating on a server, only transpiled templates can be deployed, so deno is no longer needed.
-```
+> To avoid becoming a module dependent on a specific back-end platform, the back-end support module is separated from JigTime. JigBack is a back-end support module of JigTime, and supports Oak middleware framework, PHP, Spring boot, Servlet/JSP, JAX-RS, and supports data-binding, MVC development, etc.
+> In JigBack, JS/CSS templates and static HTML page templates are transpiled via deno. When TypeScript, LESS, SCSS, and static HTML page templates are transpiled via deno, they are converted into executable templates on the front-end. When operating on a server, only transpiled templates can be deployed, so deno is no longer needed.
 
 <p align="center">
 	<img src="images/jigback.png?raw=true" width="234" /><br>
