@@ -25,14 +25,14 @@
 	<tbody>
 		<tr>
 			<td><b>Request</b></td>
-			<td><code>/path/to/path:</code> SPA resource ID</td>
+			<td><code>/path/to/path</code> SPA resource ID</td>
 		</tr>
 		<tr>
 			<td><b>Response</b></td>
 			<td>
-				<code>/path/to/path.pug:</code> HTML SPA resource by pug<br>
-				<code>/path/to/path.less:</code> CSS SPA resource by less<br>
-				<code>/path/to/path.ts:</code> JS SPA resource by ts
+				<code>/path/to/path.pug</code> HTML SPA resource by pug<br>
+				<code>/path/to/path.less</code> CSS SPA resource by less<br>
+				<code>/path/to/path.ts</code> JS SPA resource by ts
 			</td>
 		</tr>
 	</tbody>
@@ -57,6 +57,7 @@
 ### Development independent of back-end platform
 
 > To avoid becoming a module dependent on a specific back-end platform, the back-end support module is separated from JigTime. JigBack is a back-end support module of JigTime, and supports Oak middleware framework, PHP, Spring boot, Servlet/JSP, JAX-RS, and supports data-binding, MVC development, etc.
+
 > In JigBack, JS/CSS templates and static HTML page templates are transpiled via deno. When TypeScript, LESS, SCSS, and static HTML page templates are transpiled via deno, they are converted into executable templates on the front-end. When operating on a server, only transpiled templates can be deployed, so deno is no longer needed.
 
 <p align="center">
